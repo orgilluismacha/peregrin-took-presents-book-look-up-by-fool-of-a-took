@@ -10,13 +10,15 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { BookComponent } from './component/book/book.component';
+import { ShelfComponent } from './component/shelf/shelf.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ButtonComponent,
-    BookComponent
+    BookComponent,
+    ShelfComponent
   ],
   imports: [
     BrowserModule,
