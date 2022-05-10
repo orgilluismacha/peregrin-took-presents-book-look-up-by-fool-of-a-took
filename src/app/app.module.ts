@@ -11,6 +11,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { BookComponent } from './component/book/book.component';
 import { ShelfComponent } from './component/shelf/shelf.component';
+import { BookItemComponent } from './component/book-item/book-item.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ShelfComponent } from './component/shelf/shelf.component';
     HeaderComponent,
     ButtonComponent,
     BookComponent,
-    ShelfComponent
+    ShelfComponent,
+    BookItemComponent
   ],
   imports: [
     BrowserModule,

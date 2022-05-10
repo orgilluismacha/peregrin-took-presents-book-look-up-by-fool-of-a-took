@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {Book} from "../../Book";
+import { BookService } from 'src/app/services/book-s.service';
 
 @Component({
   selector: 'app-shelf',
@@ -6,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./shelf.component.css']
 })
 export class ShelfComponent implements OnInit {
+  books: Book[] = [];
+
 
   constructor() { }
 

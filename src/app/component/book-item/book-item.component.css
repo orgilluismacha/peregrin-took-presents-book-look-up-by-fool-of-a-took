@@ -1,0 +1,21 @@
+.coverIMG{
+  height: 270px;
+  width: 170px;
+  vertical-align: middle;
+}
+
+.book{
+  text-align: center;
+  padding: 5px;
+  margin:15px;
+  background-color: blue;
+}
+
+.author{
+  font-style: italic;
+  margin-top:5px;
+}
+
+.title{
+  margin-bottom:0px;
+}
